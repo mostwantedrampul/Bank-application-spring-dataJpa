@@ -1,0 +1,14 @@
+server:
+  port: 9002
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/banking_application
+    username: root
+    password: Amma@1994
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
